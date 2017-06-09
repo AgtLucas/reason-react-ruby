@@ -4,7 +4,9 @@
   "description": "A Reason React component to ruby tag",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "bsb -make-world -w",
+    "build": "webpack -w",
+    "clean": "bsb -clean-world"
   },
   "repository": {
     "type": "git",

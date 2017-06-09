@@ -8,4 +8,6 @@ module ReasonReactRuby = {
       {props.children}
     </ruby>
   }
-}
+};
+
+include ReactRe.CreateComponent ReasonReactRuby;

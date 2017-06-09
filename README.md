@@ -1,2 +1,2 @@
 # reason-react-ruby
-A Reason React component to ruby tag
+A Reason React component for ruby tag

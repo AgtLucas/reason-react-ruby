@@ -1,7 +1,7 @@
 {
   "name": "reason-react-ruby",
   "version": "1.0.0",
-  "description": "A Reason React component to ruby tag",
+  "description": "A Reason React component for ruby tag",
   "main": "index.js",
   "scripts": {
     "start": "bsb -make-world -w",

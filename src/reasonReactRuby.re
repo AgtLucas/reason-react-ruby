@@ -4,7 +4,12 @@ module ReasonReactRuby = {
   type props = { position: string, align: string };
 
   let render { props } => {
-    <ruby style={{ rubyPosition: props.position, rubyAlign: props.align }}>
+    <ruby style=(
+      ReactDOMRe.Style.make
+        rubyPosition:: props.position
+        rubyAlign:: props.align
+        ()
+    )>
       {props.children}
     </ruby>
   }

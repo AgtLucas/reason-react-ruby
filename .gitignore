@@ -66,3 +66,4 @@ dist
 /bundledOutputs/
 npm-debug.log
 .DS_Store
+lib/

@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/reason-react-ruby/issues"
   },
-  "homepage": "https://github.com/AgtLucas/reason-react-ruby#readme"
+  "homepage": "https://github.com/AgtLucas/reason-react-ruby#readme",
+  "dependencies": {
+    "bs-director": "0.0.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "reason-react": "https://github.com/reasonml/reason-react.git"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.7.4",
+    "webpack": "^2.6.1"
+  }
 }

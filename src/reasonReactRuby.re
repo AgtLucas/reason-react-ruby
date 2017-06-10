@@ -1,5 +1,6 @@
 module ReasonReactRuby = {
-  include ReactRe.Component.JsProps;
+  include ReactRe.Component;
+  let name = "ReasonReactRuby";
 
   type props = { position: string, align: string, children: list };
 
@@ -9,7 +10,7 @@ module ReasonReactRuby = {
         color:: "#08C"
         ()
     )>
-      (ReactRe.arrayToElement (Array.of_list props.children))
+      children
     </ruby>
   }
 };

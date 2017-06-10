@@ -22,7 +22,7 @@
     "bs-director": "0.0.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "reason-react": "https://github.com/reasonml/reason-react.git"
+    "reason-react": "https://github.com/SanderSpies/reason-react.git"
   },
   "devDependencies": {
     "bs-platform": "^1.7.4",

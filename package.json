@@ -2,7 +2,7 @@
   "name": "reason-react-ruby",
   "version": "1.0.0",
   "description": "A Reason React component for ruby tag",
-  "main": "index.js",
+  "main": "lib/js/src/reasonReactRuby.js",
   "scripts": {
     "start": "bsb -make-world -w",
     "build": "webpack -w",

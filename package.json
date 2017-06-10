@@ -6,7 +6,8 @@
   "scripts": {
     "start": "bsb -make-world -w",
     "build": "webpack -w",
-    "clean": "bsb -clean-world"
+    "clean": "bsb -clean-world",
+    "prepublish": "bsb -make-world"
   },
   "repository": {
     "type": "git",

@@ -25,7 +25,7 @@
     "reason-react": "https://github.com/SanderSpies/reason-react.git"
   },
   "devDependencies": {
-    "bs-platform": "^1.7.4",
+    "bs-platform": "https://github.com/bloomberg/bucklescript.git",
     "webpack": "^2.6.1"
   }
 }

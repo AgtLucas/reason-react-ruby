@@ -1,20 +1,7 @@
-module ReasonReactRuby = {
-  include ReactRe.Component;
-  let name = "ReasonReactRuby";
+let component = ReasonReact.statelessComponent "ReasonReactRuby";
 
-  type props = { position: string, align: string, children: list };
-
-  let render { props } => {
-    <ruby style=(
-      ReactDOMRe.Style.make
-        color:: "#08C"
-        ()
-    )>
-      children
-    </ruby>
-  }
+let make ::position ::align children => {
+  ...component,
+  render: fun _state _self =>
+    <ruby style=(ReactDOMRe.Style.make color::"#08C" ())> children </ruby>
 };
-
-include ReactRe.CreateComponent ReasonReactRuby;
-
-let createElement ::position ::align ::children => wrapProps { position, align, children };
